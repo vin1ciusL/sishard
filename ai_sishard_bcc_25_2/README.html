@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>AI SisHard BCC 25-2</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">AI SisHard BCC 25-2</h1>
+</header>
+<h1 id="prova-ai-de-sistemas-de-hardware-e-software">Prova AI de
+Sistemas de Hardware e Software</h1>
+<!-- markdown_py README.md > README.html -->
+<!-- pandoc README.md -f markdown -t html -s -o README.html --metadata title="AI SisHard BCC 25-2" -->
+<h3 id="duração-120-minutos">Duração: 120 minutos</h3>
+<h3 id="questões">3 Questões</h3>
+<p><strong>ATENÇÃO:</strong> O SMOWL estará com tempo superior a 120
+minutos, desconsidere.</p>
+<ul>
+<li>Em cada questão é indicado um arquivo para colocar sua
+resposta.</li>
+<li>É permitido consultar o material da disciplina durante a prova
+(repositório da disciplina e seu repositório de atividades), além de
+seus materiais físicos. <strong>Ficam proibidas consultas a materiais de
+outros alunos</strong>.</li>
+<li>Pesquisas no <strong>Google</strong> para consultar o manual de
+assembly são aceitas; pesquise algo como “nome do comando” assembly
+x86.</li>
+<li>Fica proibido o uso de ferramentas de IA ou auto-complete (geração
+de código, como o copilot). Sujeito a código de ética.</li>
+<li>A prova é individual. Qualquer consulta a outras pessoas durante a
+prova constitui violação ao Código de Ética do Insper. Não abra E-mail,
+Whatsapp, Discord, etc.</li>
+<li>A prova deve ser um exercício intelectual seu. Fica proibido
+utilizar programas ou qualquer outra ferramenta que resolva para você os
+exercícios (engenharia reversa).</li>
+<li>Para conversões de base, pode utilizar a calculadora do Ubuntu.</li>
+</ul>
+<h2 id="instalação">Instalação</h2>
+<p>Se receber reclamações como <code>cannot find -lsystemd</code>,
+instale com:</p>
+<p><code>sudo apt update</code></p>
+<p><code>sudo apt install build-essential libsystemd-dev</code></p>
+<h2 id="questão-01">Questão 01</h2>
+<p>Se não conseguir rodar o executável <code>./q1</code>, execute o
+comando:</p>
+<p><code>chmod +x q1</code></p>
+<p>Neste exercício, você deve responder <code>V</code> ou <code>F</code>
+para as afirmações retornadas.</p>
+<p>Passe suas respostas para o arquivo <code>solucao.txt</code>, uma
+resposta em cada linha (deixe uma linha em branco no final) e execute
+com</p>
+<p>./q1 &lt; solucao.txt</p>
+<p><strong>Onde deixo minhas respostas?</strong>: no arquivo
+<code>solucao.txt</code>. Uma resposta em cada linha, com uma linha em
+branco no final!</p>
+<p><strong>Critérios de avaliação</strong>: sua nota será a proporção de
+respostas <strong>corretas</strong> (por motivos óbvios, correção
+posterior a prova)</p>
+<p><strong>Pontos possíveis</strong>: 2,0</p>
+<h2 id="questão-02">Questão 02</h2>
+<p>Se não conseguir rodar o executável <code>./q2</code>, execute o
+comando:</p>
+<p><code>chmod +x q2</code></p>
+<p>Este exercício é um mini <strong>HackerLab</strong>. Utilize seus
+conhecimentos adquiridos para descobrir a senha de cada nível!</p>
+<p>Coloque as respostas no arquivo <code>solucao.txt</code> e rode</p>
+<blockquote>
+<p><code>./q2 &lt; solucao.txt</code></p>
+</blockquote>
+<p><strong>Preciso fazer engenharia reversa?</strong> Você vai precisar
+analisar o assembly para entender as operações envolvidas, mas não
+precisa entregar esta tradução. Sua entrega deve ser apenas as entradas
+no arquivo <code>solucao.txt</code>.</p>
+<p><strong>Onde deixo minhas respostas?</strong>: no arquivo
+<code>solucao.txt</code></p>
+<p><strong>Critérios de avaliação</strong>: A nota será disponibilizada
+na saída padrão!</p>
+<p><strong>Pontos possíveis</strong>: 4,0</p>
+<h2 id="questão-3">Questão 3</h2>
+<p>Faça engenharia reversa da função <code>funcao1</code> contida em
+<code>q3.o</code>.</p>
+<p>Coloque sua solução no arquivo <code>solucao.c</code>, chamando sua
+função de <code>funcao1_solucao</code>.</p>
+<p>Para compilar os testes e sua solução use</p>
+<blockquote>
+<p><code>gcc -Og -g -fno-stack-protector solucao.c q3.o -lsystemd -lm -o q3</code></p>
+</blockquote>
+<p>Este exercício possui testes automáticos para servir como
+auxílio.</p>
+<p>Execute os testes automáticos com: &gt; <code>./q3</code></p>
+<p>Observe, nos critérios de avaliação, que acertar o cabeçalho da
+função e fazer uma versão legível do código também fazem parte da nota.
+Também escreva uma explicação breve e direta (uma frase ou linha) sobre
+o que a função <code>funcao1</code> faz, no arquivo
+<code>explicacao.md</code>.</p>
+<p><strong>Critérios de avaliação deste exercício</strong>:</p>
+<ul>
+<li>50% - pela proporção de testes com PASS (sem truques para
+burlá-los)</li>
+<li>20% - acertar os tipos das chamadas de função</li>
+<li>20% - código legível (e correto), sem construções estranhas
+(entregue a melhor versão do seu exercício, se fez if-goto e depois C
+legível, entregue apenas C legível!)</li>
+<li>10% - explicação do que a função faz</li>
+</ul>
+<p><strong>OBS</strong>:</p>
+<ul>
+<li>Os testes não são exaustivos. Você pode passar em todos e sua função
+ainda não estar completamente correta. Neste caso, a nota com “proporção
+de testes com PASS” ficará completa, mas as demais poderão sofrer
+desconto.</li>
+</ul>
+<p><strong>Pontos possíveis</strong>: 4,0</p>
+</body>
+</html>
