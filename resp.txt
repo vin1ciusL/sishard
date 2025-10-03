@@ -1,0 +1,1 @@
+strings q1 | nl -ba | sed -n '1,200p'
